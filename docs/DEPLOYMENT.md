@@ -21,11 +21,11 @@ It validates submissions and forwards them to a webhook configured through:
 
 Set this environment variable in Cloudflare Pages before enabling server-side form delivery.
 
-Until then, keep `contact@ccpact.com` as the fallback contact address.
+Until then, keep `contact@carbonclimatepact.com` as the fallback contact address.
 
 ## Custom domain
 
-Attach `ccpact.com` from the Cloudflare Pages project dashboard and ensure DNS is managed correctly.
+Attach `carbonclimatepact.com` from the Cloudflare Pages project dashboard and ensure DNS is managed correctly.
 
 ## Before launch
 

@@ -46,5 +46,5 @@ document.getElementById('contactForm').addEventListener('submit',e=>{
   const fd=new FormData(e.target);
   let body=[];
   for(const [k,v] of fd.entries()) if(String(v).trim()) body.push(`${k}: ${v}`);
-  location.href=`mailto:contact@ccpact.com?subject=${encodeURIComponent('CCPA website enquiry')}&body=${encodeURIComponent(body.join('\n\n'))}`;
+  location.href=`mailto:contact@carbonclimatepact.com?subject=${encodeURIComponent('CCPA website enquiry')}&body=${encodeURIComponent(body.join('\n\n'))}`;
 });

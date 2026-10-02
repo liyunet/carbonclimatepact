@@ -1,7 +1,7 @@
 export async function onRequestGet() {
   return Response.json({
     ok: true,
-    service: "ccpact.com",
+    service: "carbonclimatepact.com",
     timestamp: new Date().toISOString()
   });
 }

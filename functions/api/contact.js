@@ -41,7 +41,7 @@ export async function onRequestPost(context) {
   if (!webhook) {
     return json({
       ok: false,
-      error: "Contact delivery is not configured yet. Please email contact@ccpact.com."
+      error: "Contact delivery is not configured yet. Please email contact@carbonclimatepact.com."
     }, 503);
   }
 
@@ -49,7 +49,7 @@ export async function onRequestPost(context) {
     method: "POST",
     headers: { "content-type": "application/json" },
     body: JSON.stringify({
-      source: "ccpact.com",
+      source: "carbonclimatepact.com",
       name,
       email,
       organization,
@@ -61,7 +61,7 @@ export async function onRequestPost(context) {
   });
 
   if (!forwarded.ok) {
-    return json({ ok: false, error: "Message delivery failed. Please email contact@ccpact.com." }, 502);
+    return json({ ok: false, error: "Message delivery failed. Please email contact@carbonclimatepact.com." }, 502);
   }
 
   return json({ ok: true, message: "Thank you. Your message has been received." });
