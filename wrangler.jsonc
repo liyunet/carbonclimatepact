@@ -1,10 +1,6 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "carbonclimatepact",
-  "pages_build_output_dir": "site",
   "compatibility_date": "2026-10-02",
-  "main": "site/index.html",
-  "assets": {
-    "directory": "./dist"
-  }
+  "pages_build_output_dir": "./dist"
 }
