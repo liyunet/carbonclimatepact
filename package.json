@@ -1,0 +1,16 @@
+{
+  "name": "ccpact-website",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Production website for Carbon & Climate PACT Africa PLC",
+  "type": "module",
+  "scripts": {
+    "check": "node scripts/check.mjs",
+    "build": "node scripts/build.mjs",
+    "dev": "wrangler pages dev site --compatibility-date=2026-10-02",
+    "deploy": "wrangler pages deploy site --project-name=ccpact"
+  },
+  "devDependencies": {
+    "wrangler": "^4.0.0"
+  }
+}

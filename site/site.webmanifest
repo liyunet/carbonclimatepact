@@ -1,0 +1,20 @@
+{
+  "name": "Carbon & Climate PACT Africa PLC",
+  "short_name": "CCPA",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f8faf8",
+  "theme_color": "#0a5f42",
+  "icons": [
+    {
+      "src": "favicon.png",
+      "sizes": "64x64",
+      "type": "image/png"
+    },
+    {
+      "src": "apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ]
+}
